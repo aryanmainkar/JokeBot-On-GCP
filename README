@@ -1,0 +1,18 @@
+NPM Dependencies:
+npm install express body-parser @google-cloud/dialogflow cors uuid path @google-cloud/firestore
+
+DialogFlow: https://dialogflow.cloud.google.com/#/editAgent/iron-flash-397317/
+FireStore: https://console.firebase.google.com/project/iron-flash-397317/overview
+Webpage: https://iron-flash-397317.uc.r.appspot.com/
+
+To update the Webpage:
+gcloud auth login
+gcloud app deploy
+
+To launch directly from CLI:
+gcloud app browse
+
+Requirements:
+ - Compute Service: App Engine
+ - Data Persistence: Firestore
+ - Other Components: DialogFlow, Cloud Functions
